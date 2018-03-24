@@ -1,6 +1,6 @@
 // открытие menuMob по клику 
 // !скрипт должен выполняется после html
-var menuLink = document.getElementById('mainLink');
+var menuLink = document.getElementById('titleLink');
 var menu = document.getElementById('menu');
 menuLink.onclick = function() {
     if(menu.classList.contains('open')) {

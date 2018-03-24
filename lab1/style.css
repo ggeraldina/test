@@ -1,12 +1,11 @@
 /*общее*/
-	/*фон страницы*/
 	body {
 		background: #F0F3F3;/*цвет фона*/
 		padding: 0;
 		margin: 0;	
 		color: #000000;/*текст черный*/
-		text-align: center;/*выравнивание по центру*/
-		font-family: fantasy;/* шрифт*/
+		text-align: center;
+		font-family: fantasy;
 	}
 	/*меню*/
 	.menu_bottom{
@@ -16,7 +15,7 @@
 		background-size: contain;
 	}
 	.menu img{
-		object-fit: contain;
+		-object-fit: contain;
 		height: 30px;
 		float: left;
 	}
@@ -46,6 +45,10 @@
 		border-radius: 20px; 
 		text-decoration: none;
 	}
+	/*главный раздел в моб. версии меню*/
+	#mainLink{
+		display:  none;
+	}
 	/*подменю*/
 	.submenu {
 		padding:0 0 20px 0;
@@ -59,6 +62,10 @@
 	    padding: 10px;
 	    text-decoration: none;
 	    text-align: left;
+	}
+	.submenu > li > a > div {
+		padding: 0px;
+		margin: 0px;
 	}
 	/*при наведении мыши*/
 	.menu > ul> li:hover > a{
@@ -103,12 +110,15 @@
 }
 @media (max-width:550px){
 	/*всегда видимый раздел меню*/
-	#mainLink{
+	#titleLink{
 		display:  block;
 	}
 	/*меню*/
 	.menu > ul > li{
 		width: 100%;
+	}
+	.menu > ul > li > a {
+		margin: 5px;
 	}
 	/*подменю*/
 	.submenu {
@@ -123,11 +133,11 @@
 	.submenu > li:hover > a{
 		text-decoration: underline;
 	}
-	/*меню свернуто*/
+	/*меню свернуто js*/
 	.close > ul > li > a{
 		display: none;
 	}
-	/*меню развернуто*/
+	/*меню развернуто js*/
 	.open {
 		height: 350px;
 	}
@@ -136,5 +146,8 @@
 	}
 	.open .submenu > li > a{ 
 		display: block;
+	}
+	#titleLink {
+		display:  block;
 	}
 }

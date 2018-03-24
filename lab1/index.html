@@ -3,33 +3,32 @@
     <head>
         <link rel = "stylesheet" type = "text/css" href = "style.css">
     	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    	<meta http-equiv="Content-Language" Content="ru">
-    	<link rel="shortcut icon" href="img/cornflowers_icon.png" 
-    	        type="image/x-icon">
+    	<meta http-equiv="Content-Language" Content="ru">    	
+    	<link rel="shortcut icon" href="img/cornflowers_icon.png" type="image/x-icon">
     	<title>Cornflowers</title>	 
     </head>
     <body> 
         <div>
+            
         <!-- меню-->
         <div class = "menu close" id = "menu">
     		<ul>
     			<li class = "activeLink">
-    			    <a href="index.html" id="mainLink" 
-    			            onclick="menuLink.onclick()" >
-    			        <img src = "img/cornflowers_icon.png" 
-    			                alt = " kartinka :-)" >
+    			    <a href="index.html" id="titleLink" onclick="menuLink.onclick()" >
+    			        <img src = "img/cornflowers_icon.png" alt = " kartinka :-)" >
     			        <div>Васильки.рф</div>
     			    </a>
 			    </li>
-			    <li><a href="" >Фотогалерея</a></li>
+			    <li class = "activeLink"><a href="" id="mainLink"><div>Главная</div></a></li>
+			    <li><a href="" ><div>Фотогалерея</div></a></li>
     			<li>
-    				<a href=#>Статьи</a>
+    				<a href=#><div>Статьи</div></a>
     				<ul  class="submenu" >
-    					<li><a href=#>О васильках</a></li>
-    					<li><a href=#>Выращивание и уход</a></li>
+    					<li><a href=#><div>О васильках</div></a></li>
+    					<li><a href=#><div>Выращивание и уход</div></a></li>
     				</ul>
     			</li>
-    			<li><a href="">Контакты</a></li>
+    			<li><a href=""><div>Обратная связь</div></a></li>
     		</ul>
 		</div>
         <div class="menu_bottom"></div>
@@ -38,6 +37,10 @@
         выполняется после html, когда известны id -->	
 		<script language= "JavaScript" src="js/menuMob.js" 
 		        type="text/javascript"></script>
+        
+        
+        
+        
         
         </div>
     </body>
