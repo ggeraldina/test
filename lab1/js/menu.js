@@ -1,8 +1,8 @@
 // Меню (есть на всех страницах)
 
 // <!-- меню-->
-//         <div class = "menu close" id = "menu">
-document.write('<div class = "menu close" id = "menu">');
+//         <div class = "menu closeMenu" id = "menu">
+document.write('<div class = "menu closeMenu" id = "menu">');
 //     		<ul>
 document.write('<ul>');
 
@@ -99,12 +99,12 @@ document.write('</li>');
 document.write('</ul>');
 // 		</div>
 document.write('</div>');
-//         <div class="menu_bottom"></div>
-document.write('<div class="menu_bottom"></div>');
+//         <div id=menuBottom class="menuBottom  closeMenuBottom"></div>
+document.write('<div id=menuBottom class="menuBottom  closeMenuBottom"></div>');
 
 
 // <!-- меню-->
-//         <div class = "menu close" id = "menu">
+//         <div class = "menu closeMenu" id = "menu">
 //     		<ul>
 //     			<li class = "activeLink">
 //     			    <a href="index.html" id="titleLink" onclick="menuLink.onclick()" >
@@ -124,4 +124,4 @@ document.write('<div class="menu_bottom"></div>');
 //     			<li><a href=""><div>Обратная связь</div></a></li>
 //     		</ul>
 // 		</div>
-//         <div class="menu_bottom"></div>
+//         <div id=menuBottom class="menuBottom closeMenuBottom"></div>

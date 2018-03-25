@@ -1,39 +1,94 @@
-/*общее*/
-	body {
+/*общие настройки*/
+	body{
+		padding: 0;
+		margin: 0;
 		background: #F0F3F3;/*цвет фона*/
+	}
+	.basic {
 		padding: 0;
 		margin: 0;	
-		color: #000000;/*текст черный*/
+		color: #1B3E91;
+		text-align: left;
+		text-shadow: 0px 0px 2px #FFFFFF;
+		text-indent: 20px; 
+		font-family: Calibri;
+		font-size: 14pt;
+		font-weight: bold;
+	}
+	/*списки*/
+	ul{
+		margin: 0;
+	}
+	ul li{
+		list-style: square url(img/cornflowers_marker.png);
+		text-align: left;
+	}
+	/*текст*/
+	.text div{
+		margin-top: 130px;
+	}
+	.text > div{
+		padding: 0 30px;
+	}
+	.text h1,
+	.text h2{
+		padding: 0;
+		padding-top: 20px;
+		margin: 0;
+		color: #245850;
+		text-shadow: 0px 0px 3px #FFFFFF, 1px 1px 6px #8DB4D8;
 		text-align: center;
-		font-family: fantasy;
+		font-size: 28pt;
 	}
+	.text h2 {
+		font-size: 20pt;
+	}
+	.text p{
+		padding: 0;
+		margin: 0;
+	}
+	/*ссылки*/
+	a{
+		color: #245850;
+		text-decoration: none;
+		font-style: italic;
+	}
+	a:hover{
+		text-decoration: underline;
+	}
+	a:active{
+		text-shadow: 0px 0px 3px #FFFFFF, 1px 1px 6px #8DB4D8;
+	}
+/*общее меню*/
 	/*меню*/
-	.menu_bottom{
-		height: 70px;
-		background-image: url(img/cornflowers_top.png);
-		background-repeat: repeat;
-		background-size: contain;
-	}
 	.menu img{
 		-object-fit: contain;
 		height: 30px;
 		float: left;
 	}
 	.menu{
+		width: 100%;
+		position: fixed;
+		top: 0px;
+		z-index: 2;
 		height: 60px;
 		background: #1B3E91;
 		font-size: 16pt;
-		
+		font-family: fantasy;
+		font-weight: normal;
+		text-shadow: none;
+		text-indent: 0; 
 	}
 	.menu > ul{
 		padding: 0;
 		margin: 0;
-		display: block;
-		list-style:none;/*маркера нет*/	
+		display: block;	
 	}
 	.menu > ul > li{
 		float: left;
 		position: relative;
+		list-style:none;/*маркера нет*/
+		text-align: center;
 	}
 	.menu > ul > li > a{
 		display: block;
@@ -44,6 +99,7 @@
 		border: 1px solid #8DB4D8;
 		border-radius: 20px; 
 		text-decoration: none;
+		font-style: normal;
 	}
 	/*главный раздел в моб. версии меню*/
 	#mainLink{
@@ -51,17 +107,21 @@
 	}
 	/*подменю*/
 	.submenu {
+		z-index: 3;
 		padding:0 0 20px 0;
-	    list-style: none;/*маркера нет*/
 	    background-color: #1B3E91;
 	    font-size: 12pt;
+	}
+	.submenu > li{
+		list-style: none;/*маркера нет*/
+	    text-align: left;
 	}
 	.submenu > li > a {
 	    display: block;
 	    color: white;
 	    padding: 10px;
 	    text-decoration: none;
-	    text-align: left;
+		font-style: normal;
 	}
 	.submenu > li > a > div {
 		padding: 0px;
@@ -74,6 +134,16 @@
 	/*активный раздел меню*/
 	.activeLink > a > div{
 		color: white;
+	}
+	.menuBottom{
+		width: 100%;
+		position: fixed;
+		top: 60px;
+		z-index: 1;
+		height: 70px;
+		background-image: url(img/cornflowers_top.png);
+		background-repeat: repeat;
+		background-size: contain;
 	}
 @media (min-width: 550px){
 	/*меню*/
@@ -99,7 +169,7 @@
 		color: #8DB4D8;
 	}
 }
-@media (max-width:750px) and (min-width: 550px){
+@media (max-width:770px) and (min-width: 550px){
 	/*меню*/
 	.menu{
 		height: 120px;
@@ -107,18 +177,22 @@
 	.menu > ul > li{
 		width: 50%;
 	}
+	.menuBottom{
+		top: 120px;
+	}
+	.text div{
+		margin-top: 190px;
+	}
 }
 @media (max-width:550px){
 	/*всегда видимый раздел меню*/
 	#titleLink{
 		display:  block;
+		color: white;
 	}
 	/*меню*/
 	.menu > ul > li{
 		width: 100%;
-	}
-	.menu > ul > li > a {
-		margin: 5px;
 	}
 	/*подменю*/
 	.submenu {
@@ -134,20 +208,32 @@
 		text-decoration: underline;
 	}
 	/*меню свернуто js*/
-	.close > ul > li > a{
+	.closeMenu > ul > li > a{
 		display: none;
 	}
 	/*меню развернуто js*/
-	.open {
-		height: 350px;
+	.openMenu {
+		height: 320px;
 	}
-	.open  > ul > li > a{ 
+	.openMenu  > ul > li > a{ 
 		display: block;
 	}
-	.open .submenu > li > a{ 
-		display: block;
-	}
-	#titleLink {
+	.openMenu #mainLink{
 		display:  block;
 	}
+	
+	.closeMenuBottom{
+		top: 60px;
+	}
+	.openMenuBottom{
+		top: 320px;
+	}
+	
+	.closeMenu_text{
+		margin-top: 130px;
+	}
+	.openMenu_text{
+		margin-top: 390px;
+	}
+	
 }
