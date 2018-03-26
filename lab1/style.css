@@ -61,6 +61,13 @@
 	.imgLeft{
 		float: left;
 	}
+	/*стрелка наверх*/
+	.arrowUp{
+		position: fixed;
+		bottom: 0;
+		right: 0;
+		display: none;
+	}
 	/*ссылки*/
 	a{
 		color: #245850;
