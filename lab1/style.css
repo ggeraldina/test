@@ -47,6 +47,20 @@
 		padding: 0;
 		margin: 0;
 	}
+	/*изображения*/
+	.text img{
+		max-width: 60%;
+		border: #245850 10px solid;
+		display: block;
+		margin: 30px;
+		padding: 5px;
+	}
+	.imgRight{
+		float: right;
+	}
+	.imgLeft{
+		float: left;
+	}
 	/*ссылки*/
 	a{
 		color: #245850;
@@ -168,7 +182,13 @@
 		color: #8DB4D8;
 	}
 }
-@media (max-width:770px) and (min-width: 550px){
+@media (min-width: 770px){
+	/*изображения en_centaurea_cyanus*/
+	#img_ecc_2{
+		width: 35%;
+	}
+}
+@media (max-width: 770px) and (min-width: 550px){
 	/*меню*/
 	.menu{
 		height: 120px;
@@ -181,6 +201,10 @@
 	}
 	.text div{
 		margin-top: 190px;
+	}
+	/*изображения en_centaurea_cyanus*/
+	#img_ecc_2{
+		width: 40%;
 	}
 }
 @media (max-width:550px){
@@ -234,5 +258,4 @@
 	.openMenu_text{
 		margin-top: 390px;
 	}
-	
 }

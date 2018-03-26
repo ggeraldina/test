@@ -40,7 +40,7 @@ document.write('</li>');
 
 // Фотогалерея
 // 			    <li><a href="photogallery.html" ><div>Фотогалерея</div></a></li>
-if (document.title == ""){
+if (document.title == "Photogallery"){
 	document.write('<li class = "activeLink">');
 	}
 else{
@@ -85,7 +85,7 @@ document.write('</li>');
 
 // Обратная связь
 //     			<li><a href="feedback.html"><div>Обратная связь</div></a></li>
-if (document.title == ""){
+if (document.title == "Feedback"){
 	document.write('<li class = "activeLink">');
 	}
 else{
