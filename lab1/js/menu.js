@@ -16,8 +16,8 @@ else{
 }
 //     			    <a href="index.html" id="titleLink" onclick="menuLink.onclick()" >
 document.write('<a href="index.html" id="titleLink" onclick="menuLink.onclick()">');
-//     			        <img src = "img/cornflowers_icon.png" alt = " kartinka :-)" >
-document.write('<img src = "img/cornflowers_icon.png" alt = " kartinka :-)">');
+//     			        <img src = "img/cornflowers_icon_light.png" alt = " kartinka :-)" >
+document.write('<img src = "img/cornflowers_icon_light.png" alt = " kartinka :-)">');
 //     			        <div>Васильки.рф</div>
 document.write('<div>Васильки.рф</div>');
 //     			    </a>
@@ -26,41 +26,41 @@ document.write('</a>');
 document.write('</li>');
 
 // Главная
-// 			    <li><a href="" id="mainLink"><div>Главная</div></a></li>
+// 			    <li><a href="index.html"><div>Главная</div></a></li>
 if (document.title == "Cornflowers"){
 	document.write('<li class = "activeLink">');
 	}
 else{
 	document.write('<li>');
 }
-document.write('<a href="" id="mainLink">');
+document.write('<a href="index.html">');
 document.write('<div>Главная</div>');
 document.write('</a>');
 document.write('</li>');
 
 // Фотогалерея
-// 			    <li><a href="" ><div>Фотогалерея</div></a></li>
+// 			    <li><a href="photogallery.html" ><div>Фотогалерея</div></a></li>
 if (document.title == ""){
 	document.write('<li class = "activeLink">');
 	}
 else{
 	document.write('<li>');
 }
-document.write('<a href="" >');
+document.write('<a href="photogallery.html" >');
 document.write('<div>Фотогалерея</div>');
 document.write('</a>');
 document.write('</li>');
 
 // Статьи
 //     			<li>
-if (document.title == ""){
+if (document.title == "Articles"){
 	document.write('<li class = "activeLink">');
 	}
 else{
 	document.write('<li>');
 }
-//     				<a href=#><div>Статьи</div></a>
-document.write('<a href=#>');
+//     				<a href="articles.html"><div>Статьи</div></a>
+document.write('<a href="articles.html">');
 document.write('<div>Статьи</div>');
 document.write('</a>');
 // Подменю
@@ -84,14 +84,14 @@ document.write('</ul>');
 document.write('</li>');
 
 // Обратная связь
-//     			<li><a href=""><div>Обратная связь</div></a></li>
+//     			<li><a href="feedback.html"><div>Обратная связь</div></a></li>
 if (document.title == ""){
 	document.write('<li class = "activeLink">');
 	}
 else{
 	document.write('<li>');
 }
-document.write('<a href="">');
+document.write('<a href="feedback.html">');
 document.write('<div>Обратная связь</div>');
 document.write('</a>');
 document.write('</li>');
@@ -108,20 +108,20 @@ document.write('<div id=menuBottom class="menuBottom  closeMenuBottom"></div>');
 //     		<ul>
 //     			<li class = "activeLink">
 //     			    <a href="index.html" id="titleLink" onclick="menuLink.onclick()" >
-//     			        <img src = "img/cornflowers_icon.png" alt = " kartinka :-)" >
+//     			        <img src = "img/cornflowers_icon_light.png" alt = " kartinka :-)" >
 //     			        <div>Васильки.рф</div>
 //     			    </a>
 // 			    </li>
-// 			    <li class = "activeLink"><a href="" id="mainLink"><div>Главная</div></a></li>
-// 			    <li><a href="" ><div>Фотогалерея</div></a></li>
+// 			    <li class = "activeLink"><a href="index.html"><div>Главная</div></a></li>
+// 			    <li><a href="photogallery.html" ><div>Фотогалерея</div></a></li>
 //     			<li>
-//     				<a href=#><div>Статьи</div></a>
+//     				<a href="articles.html"><div>Статьи</div></a>
 //     				<ul  class="submenu" >
 //     					<li><a href=#><div>О васильках</div></a></li>
 //     					<li><a href=#><div>Выращивание и уход</div></a></li>
 //     				</ul>
 //     			</li>
-//     			<li><a href=""><div>Обратная связь</div></a></li>
+//     			<li><a href="feedback.html"><div>Обратная связь</div></a></li>
 //     		</ul>
 // 		</div>
 //         <div id=menuBottom class="menuBottom closeMenuBottom"></div>

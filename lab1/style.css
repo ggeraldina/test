@@ -59,7 +59,6 @@
 	a:active{
 		text-shadow: 0px 0px 3px #FFFFFF, 1px 1px 6px #8DB4D8;
 	}
-/*общее меню*/
 	/*меню*/
 	.menu img{
 		-object-fit: contain;
@@ -101,9 +100,9 @@
 		text-decoration: none;
 		font-style: normal;
 	}
-	/*главный раздел в моб. версии меню*/
-	#mainLink{
-		display:  none;
+	/*раздел меню в моб. версии*/
+	#titleLink{
+		display: none;
 	}
 	/*подменю*/
 	.submenu {
