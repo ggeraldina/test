@@ -158,6 +158,31 @@
 		background-repeat: repeat;
 		background-size: contain;
 	}
+	/*подвал сайта*/
+	.pageFooter{
+		display: table;
+		width: 100%;
+		padding: 0px;
+		margin-top: 30px;
+	
+	}
+	.pageFooter > div{
+		background-color: #497ABD;
+		border-top: 1px solid #497ABD;
+		margin-top: 20px;
+	}
+	.pageFooter > div > div{
+		background-color: #497ABD;
+		padding: 10px 30px 30px 30px;
+		margin-top: 10px;
+		text-shadow: none;
+		text-align: left;
+		text-indent: 0;
+		font-size: 11pt;
+		font-weight: normal;
+		color: white;
+		border-top: 5px solid #1B3E91;
+	}
 @media (min-width: 550px){
 	/*меню*/
 	.menu > ul > li{
