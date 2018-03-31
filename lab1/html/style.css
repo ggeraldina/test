@@ -20,16 +20,10 @@
 		margin: 0;
 	}
 	ul li{
-		list-style: square url(img/cornflowers_marker.png);
+		list-style: square url(../img/cornflowers_marker.png);
 		text-align: left;
 	}
 	/*текст*/
-	.text div{
-		margin-top: 130px;
-	}
-	.text > div{
-		padding: 0 30px;
-	}
 	.text h1,
 	.text h2{
 		padding: 0;
@@ -52,21 +46,37 @@
 		max-width: 60%;
 		border: #245850 10px solid;
 		display: block;
-		margin: 30px;
 		padding: 5px;
 	}
-	.imgRight{
+	.imgRight > img{
+		margin: 30px;
 		float: right;
 	}
-	.imgLeft{
+	.imgLeft > img{
+		margin: 30px;
 		float: left;
+	}
+	div.imgCenter{
+		margin: 30px;
+		text-align: center;
+	}
+	.imgCenter > img{
+		margin: auto;
 	}
 	/*стрелка наверх*/
 	.arrowUp{
 		position: fixed;
 		bottom: 0;
 		right: 0;
-		display: none;
+		z-index: 5;
+		opacity: 0.5; /* степень прозрачности элемента */
+		-webkit-transition: all 0.5s ease-out 0.1s;
+	     -moz-transition: all 0.5s ease-out 0.1s;
+	       -o-transition: all 0.5s ease-out 0.1s;
+	          transition: all 0.5s ease-out 0.1s;
+	}
+	.arrowUp:hover {
+	    opacity: 1; /* степень прозрачности элемента */
 	}
 	/*ссылки*/
 	a{
@@ -142,6 +152,8 @@
 	    padding: 10px;
 	    text-decoration: none;
 		font-style: normal;
+		letter-spacing: 1px;
+		word-spacing: 3px;
 	}
 	.submenu > li > a > div {
 		padding: 0px;
@@ -155,28 +167,45 @@
 	.activeLink > a > div{
 		color: white;
 	}
+	.activeSubLink{
+		text-decoration: underline;
+	}
 	.menuBottom{
 		width: 100%;
 		position: fixed;
 		top: 60px;
 		z-index: 1;
 		height: 70px;
-		background-image: url(img/cornflowers_top.png);
+		background-image: url(../img/cornflowers_top.png);
 		background-repeat: repeat;
 		background-size: contain;
 	}
 	/*подвал сайта*/
-	.pageFooter{
-		display: table;
-		width: 100%;
+	html,
+	body {
+	  height: 100%;
+	}
+	.basic {
+	  position: relative;
+	  min-height: 100%;
+	}
+	.text {
+	  padding-bottom: 190px;
+	}
+	.pageFooter {
+	    position: absolute;
+	    z-index: 4;
+	    left: 0;
+	    bottom: 0;
+	    width: 100%;
 		padding: 0px;
 		margin-top: 30px;
-	
 	}
 	.pageFooter > div{
 		background-color: #497ABD;
 		border-top: 1px solid #497ABD;
 		margin-top: 20px;
+		height: 110px;
 	}
 	.pageFooter > div > div{
 		background-color: #497ABD;
@@ -215,6 +244,10 @@
 	}
 }
 @media (min-width: 770px){
+	/*текст, контент*/
+	.text > div{
+		padding: 130px 30px 0 30px;
+	}
 	/*изображения en_centaurea_cyanus*/
 	#img_ecc_2{
 		width: 35%;
@@ -231,8 +264,8 @@
 	.menuBottom{
 		top: 120px;
 	}
-	.text div{
-		margin-top: 190px;
+	.text > div{
+		padding: 190px 30px 0 30px;
 	}
 	/*изображения en_centaurea_cyanus*/
 	#img_ecc_2{
@@ -285,9 +318,26 @@
 	}
 	
 	.closeMenu_text{
-		margin-top: 130px;
+		padding: 130px 30px 0 30px;
 	}
 	.openMenu_text{
-		margin-top: 390px;
+		padding: 390px 30px 0 30px;
+	}
+	/*изображения*/
+	div.imgRight{
+		margin: 30px;
+		text-align: center;
+	}
+	.imgRight > img{
+		margin: auto;
+		float: none;
+	}
+	div.imgLeft{
+		margin: 30px;
+		text-align: center;
+	}
+	.imgLeft > img{
+		margin: auto;
+		float: none;
 	}
 }
