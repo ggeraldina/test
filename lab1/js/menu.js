@@ -46,6 +46,9 @@ switch (document.title) {
 	case "Articles":
 		document.write('<li class = "activeLink">');
 		break;
+	case "(RU) Cornflowers":
+		document.write('<li class = "activeLink">');
+		break;
 	case "(EN) Centaurea cyanus":
 		document.write('<li class = "activeLink">');
 		break;
@@ -67,7 +70,7 @@ else{
 	document.write('<li>');
 }
 document.write('<a href="../articles/ru_cornflowers.html">');
-document.write('<div>(RU) Васильки</div>');
+document.write('<div>(RU) Василёк</div>');
 document.write('</a>');
 document.write('</li>');
 //
@@ -78,7 +81,7 @@ else{
 	document.write('<li>');
 }
 document.write('<a href="../articles/en_centaurea_cyanus.html">');
-document.write('<div>(EN) Васильки</div>');
+document.write('<div>(EN) Cornflower</div>');
 document.write('</a>');
 document.write('</li>');
 

@@ -41,6 +41,10 @@
 		padding: 0;
 		margin: 0;
 	}
+	.srcLink > a{
+		word-wrap: break-word;
+		overflow-wrap: break-word;
+	}
 	/*изображения*/
 	.text img{
 		max-width: 60%;
@@ -104,7 +108,7 @@
 		height: 60px;
 		background: #1B3E91;
 		font-size: 16pt;
-		font-family: fantasy;
+		font-family: Impact, fantasy;
 		font-weight: normal;
 		text-shadow: none;
 		text-indent: 0; 
@@ -167,9 +171,10 @@
 	.activeLink > a > div{
 		color: white;
 	}
-	.activeSubLink{
+	.activeSubLink > a > div{
 		text-decoration: underline;
 	}
+	/*васильки под меню*/
 	.menuBottom{
 		width: 100%;
 		position: fixed;
@@ -218,6 +223,61 @@
 		font-weight: normal;
 		color: white;
 		border-top: 5px solid #1B3E91;
+	}
+	/*колонки*/
+	div.text_column{
+		padding: 0;
+		margin: 0 -20px;
+		display: inline-block;
+		width: 100%;
+	}
+	div.column{
+		width: 33%;
+		float: left;
+	}
+	div.column > div{
+		padding: 20px;
+		margin: 10px;
+		background: #245850;
+	}
+	h2.columnTitle{
+		color: white;
+		padding: 0;
+		margin: 0;
+		text-indent: 0px;
+		text-shadow: none;
+	}
+	img.columnImg{
+		min-width: 100%;
+		padding: 0;
+		margin: 0;
+		border: none;
+		height: 200px;
+		display: block;
+		object-fit: cover;
+		object-position: 50% 50%;
+	}
+	.columnText{
+		text-align: justify;
+		border: solid 1px #8DB4D8;
+		border-top: none;
+	}
+	.columnText > div{
+		padding: 0 10px 10px 10px;
+		overflow: hidden;
+		color: #F0F3F3;
+		height: 130px;
+		text-shadow: none;
+		font-size: 14px;
+	}
+	.columnLink{
+		text-indent: 0;
+		text-align: right;
+	}
+	.columnLink > a{
+		color: white;
+		font-style: normal;
+		text-shadow: none;
 	}
 @media (min-width: 550px){
 	/*меню*/
@@ -270,6 +330,10 @@
 	/*изображения en_centaurea_cyanus*/
 	#img_ecc_2{
 		width: 40%;
+	}
+	/*колонки*/
+	div.column{
+		width: 50%;
 	}
 }
 @media (max-width:550px){
@@ -339,5 +403,9 @@
 	.imgLeft > img{
 		margin: auto;
 		float: none;
+	}
+	/*колонки*/
+	div.column{
+		width: 100%;
 	}
 }
