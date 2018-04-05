@@ -385,6 +385,37 @@
 		width: 50%;
 	}
 }
+@media (max-width:770px){
+	.text img{
+		/*margin: 30px 0;*/
+		max-width: 90%;
+	}
+	/*изображения*/
+	div.imgRight{
+		margin: 30px 0;
+		text-align: center;
+	}
+	.imgRight > img{
+		margin: auto;
+		float: none;
+	}
+	div.imgLeft{
+		margin: 30px 0;
+		text-align: center;
+	}
+	.imgLeft > img{
+		margin: auto;
+		float: none;
+	}
+	div.imgCenter{
+		margin: 30px 0;
+		text-align: center;
+	}
+	.imgCenter{
+		margin: auto;
+		float: none;
+	}
+}
 @media (max-width:550px){
 	/*всегда видимый раздел меню*/
 	#titleLink{
@@ -435,23 +466,6 @@
 	}
 	.openMenu_text{
 		padding: 390px 30px 0 30px;
-	}
-	/*изображения*/
-	div.imgRight{
-		margin: 30px;
-		text-align: center;
-	}
-	.imgRight > img{
-		margin: auto;
-		float: none;
-	}
-	div.imgLeft{
-		margin: 30px;
-		text-align: center;
-	}
-	.imgLeft > img{
-		margin: auto;
-		float: none;
 	}
 	/*колонки*/
 	div.column{
