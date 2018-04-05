@@ -257,6 +257,16 @@
 		object-fit: cover;
 		object-position: 50% 50%;
 	}
+	img.columnImgPhoto{
+		min-width: 100%;
+		padding: 0;
+		margin: 0;
+		border: none;
+		height: 300px;
+		display: block;
+		object-fit: cover;
+		object-position: 50% 50%;
+	}
 	.columnText{
 		text-align: justify;
 		border: solid 1px #8DB4D8;
