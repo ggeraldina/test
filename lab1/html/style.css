@@ -2,7 +2,7 @@
 	body{
 		padding: 0;
 		margin: 0;
-		background: #F0F3F3;/*цвет фона*/
+		background: #F0F3F3;
 	}
 	.basic {
 		padding: 0;
@@ -33,6 +33,7 @@
 		text-shadow: 0px 0px 3px #FFFFFF, 1px 1px 6px #8DB4D8;
 		text-align: center;
 		font-size: 28pt;
+		text-indent: 0;
 	}
 	.text h2 {
 		font-size: 20pt;
@@ -288,6 +289,38 @@
 		color: white;
 		font-style: normal;
 		text-shadow: none;
+	}
+	/*форма обратной связи*/
+	.form{
+		text-align: left;
+		display: inline;
+	}
+	#form{
+		margin-top: 30px;
+		text-align: center;
+		text-indent: 0;
+		
+	}
+	#feedbackButton{
+		color: white;
+		background-color: #1B3E91;
+		cursor: pointer;
+		border-width: 2px;
+	    border-color: #497ABD;
+	    margin-top: 20px;
+	    padding: 5px 30px;
+	}
+	input[type="text"]{
+		width: 50%;
+		min-width: 200px;
+	}
+	input[type="email"]{
+		width: 50%;
+		min-width: 200px;
+	}
+	textarea{
+		width: 50%;
+		min-width: 200px;
 	}
 @media (min-width: 550px){
 	/*меню*/
