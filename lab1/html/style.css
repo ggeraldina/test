@@ -236,7 +236,7 @@
 		width: 33%;
 		float: left;
 	}
-	div.column > div{
+	.columnDiv{
 		padding: 20px;
 		margin: 10px;
 		background: #245850;
@@ -260,13 +260,18 @@
 	}
 	img.columnImgPhoto{
 		min-width: 100%;
-		padding: 0;
-		margin: 0;
+		padding: 0px;
+		margin: 0px;
 		border: none;
 		height: 300px;
 		display: block;
 		object-fit: cover;
 		object-position: 50% 50%;
+	}
+	.columnDivPG{
+		padding: 5px;
+		margin: 10px;
+		border: 10px solid #245850;
 	}
 	.columnText{
 		text-align: justify;
