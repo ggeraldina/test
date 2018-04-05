@@ -52,6 +52,18 @@ switch (document.title) {
 	case "(EN) Centaurea cyanus":
 		document.write('<li class = "activeLink">');
 		break;
+	case "(RU) Description":
+		document.write('<li class = "activeLink">');
+		break;
+	case "(RU) Species of plants":
+		document.write('<li class = "activeLink">');
+		break;
+	case "(RU) Growing":
+		document.write('<li class = "activeLink">');
+		break;
+	case "(RU) Benefit":
+		document.write('<li class = "activeLink">');
+		break;
 	
 	default:
 		document.write('<li>');
@@ -70,18 +82,65 @@ else{
 	document.write('<li>');
 }
 document.write('<a href="../articles/ru_cornflowers.html">');
-document.write('<div>(RU) Василёк</div>');
+document.write('<div>Василёк синий</div>');
 document.write('</a>');
 document.write('</li>');
 //
-if (document.title == "(EN) Centaurea cyanus"){
+// if (document.title == "(EN) Centaurea cyanus"){
+// 	document.write('<li class = "activeSubLink">');
+// 	}
+// else{
+// 	document.write('<li>');
+// }
+// document.write('<a href="../articles/en_centaurea_cyanus.html">');
+// document.write('<div>(EN) Cornflower</div>');
+// document.write('</a>');
+// document.write('</li>');
+//
+if (document.title == "(RU) Description"){
 	document.write('<li class = "activeSubLink">');
 	}
 else{
 	document.write('<li>');
 }
-document.write('<a href="../articles/en_centaurea_cyanus.html">');
-document.write('<div>(EN) Cornflower</div>');
+document.write('<a href="../articles/ru_description.html">');
+document.write('<div>Описание растения</div>');
+document.write('</a>');
+document.write('</li>');
+
+//
+if (document.title == "(RU) Species of plants"){
+	document.write('<li class = "activeSubLink">');
+	}
+else{
+	document.write('<li>');
+}
+document.write('<a href="../articles/ru_speciesPlants.html">');
+document.write('<div>Виды васильков</div>');
+document.write('</a>');
+document.write('</li>');
+
+//
+if (document.title == "(RU) Growing"){
+	document.write('<li class = "activeSubLink">');
+	}
+else{
+	document.write('<li>');
+}
+document.write('<a href="../articles/ru_growingCornflowers.html">');
+document.write('<div>Выращивание и уход</div>');
+document.write('</a>');
+document.write('</li>');
+
+//
+if (document.title == "(RU) Benefit"){
+	document.write('<li class = "activeSubLink">');
+	}
+else{
+	document.write('<li>');
+}
+document.write('<a href="../articles/ru_benefitsCornflower.html">');
+document.write('<div>Польза васильков</div>');
 document.write('</a>');
 document.write('</li>');
 
