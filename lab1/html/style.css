@@ -247,6 +247,7 @@
 		margin: 0;
 		text-indent: 0px;
 		text-shadow: none;
+		height: 65px;
 	}
 	img.columnImg{
 		min-width: 100%;
