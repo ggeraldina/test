@@ -101,6 +101,10 @@
 		height: 30px;
 		float: left;
 	}
+	@font-face {
+	    font-family: ImpactWeb; 
+	    src: url(../fonts/ImpactWeb.ttf);
+   	}
 	.menu{
 		width: 100%;
 		position: fixed;
@@ -109,7 +113,7 @@
 		height: 60px;
 		background: #1B3E91;
 		font-size: 16pt;
-		font-family: Impact, fantasy;
+		font-family: Impact, ImpactWeb, fantasy;
 		font-weight: normal;
 		text-shadow: none;
 		text-indent: 0; 
@@ -387,7 +391,6 @@
 }
 @media (max-width:770px){
 	.text img{
-		/*margin: 30px 0;*/
 		max-width: 90%;
 	}
 	/*изображения*/
