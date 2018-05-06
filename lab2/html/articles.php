@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel = "stylesheet" type = "text/css" href = "../html/style.css">
+        <meta name="viewport" content="width=device-width">
+    	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    	<meta http-equiv="Content-Language" Content="ru">    	
+    	<link rel="shortcut icon" href="../img/cornflowers_icon.png" type="image/x-icon">
+    	<title>Articles</title>	 
+    </head>
+    <body id="up"> 
+        <div class="basic">
+            
+        <!-- загрузить меню -->
+		<script language= "JavaScript" src="../js/menu.js" type="text/javascript"></script>
+        
+        
+        <!--content-->
+        <div class="text" >
+        <div id="text" class="closeMenu_text">
+            
+            <div class="text_column">
+            
+            <h1>Статьи по теме</h1>    
+                
+            <div class="column">
+                <div  class="columnDiv" >
+                    <h2 class="columnTitle">Василёк синий</h2>
+                    <img class="columnImg" src="http://shepitovflora.ru/u/morningshepitovflora12.ru/vasilek-480x480-2-120316171934.jpg">
+                    <div class="columnText">
+                        <div>
+                            <p>Василёк (лат.Centaur&eacute;a) — род травянистых растений семейства 
+        Астровые, или Сложноцветные (Asteraceae).</p>
+        <p>Василёк синий,
+        или Василёк посевной (лат. Centaur&eacute;a cy&aacute;nus) — однолетнее, 
+        двулетнее травянистое луговое
+        растение; вид рода Василёк семейства Астровые, или Сложноцветные 
+        (Asteraceae).</p>
+        <p>Встречается по опушкам лесов, полянам, обочинам дорог, как
+        сорное растение на огородах и полях злаковых культур.</p>
+                        </div>
+                           
+                    </div>
+                    <div class="columnLink">
+                        <a href="../articles/ru_cornflowers.html">Подробнее</a>
+                    </div>
+                </div>
+            </div>
+            
+        <!--    <div class="column">-->
+        <!--        <div  class="columnDiv" >-->
+        <!--            <h2 class="columnTitle">Cornflower</h2>-->
+        <!--            <img class="columnImg" src="https://img3.goodfon.ru/original/1536x960/3/65/vasilki-cvety-sinie.jpg">-->
+        <!--            <div class="columnText">-->
+        <!--                <div>-->
+        <!--                    <p>Centaurea cyanus, commonly known as cornflower or bachelor's button, -->
+        <!--is an annual flowering plant in the family Asteraceae, native to Europe. -->
+        <!--In the past it often grew as a weed in cornfields (in the broad sense -->
+        <!--of the word "corn", referring to grains, such as wheat, barley, rye, -->
+        <!--or oats), hence its name. It is now endangered in its native habitat -->
+        <!--by agricultural intensification, particularly over-use of herbicides, -->
+        <!--destroying its habitat. It is also, however, through introduction as -->
+        <!--an ornamental plant in gardens and a seed contaminant in crop seeds, -->
+        <!--now naturalised in many other parts of the world, including North -->
+        <!--America and parts of Australia.</p>-->
+        <!--                </div>-->
+        <!--            </div>-->
+        <!--            <div class="columnLink">-->
+        <!--                <a href="../articles/en_centaurea_cyanus.html">More detailed</a>-->
+        <!--            </div>-->
+        <!--        </div>-->
+        <!--    </div>-->
+            
+            <div class="column">
+                <div  class="columnDiv" >
+                    <h2 class="columnTitle">Описание растения</h2>
+                    <img class="columnImg" src="http://cvety-na-dache.ru/wp-content/uploads/2016/12/Screenshot_82.png">
+                    <div class="columnText">
+                        <div>
+                            <p>
+            Название этого растения происходит от мифологического существа
+            кентавра Хирона, который славился искусством исцеления с помощью
+            трав. Васильки – цветы, которые относятся к семейству
+            Сложноцветные, или Астровые. Это травянистое растение 
+            с лежащими или прямостоящими стеблями. Он может вырастать
+            до 120 см. Его соцветье имеет форму корзинки, которая 
+            похожа на шар или цилиндр. Лепестки трубчатые или
+            трубчато-воронковидные. Их окрас может быть совершенно разным: 
+            голубым, белым, розовым, желтым, синим, фиолетовым, бордовым
+            и красным. Корневая система бывает разной, это зависит от вида
+            цветка. Она может быть и с глубоким стержнем, и с толстым 
+            корневищем, и с сильноветвящимся коротким корнем. Существует
+            цветок, похожий на василек. Это бодяк. Он является злостным
+            сорняком, который подлежит уничтожению.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="columnLink">
+                        <a href="../articles/ru_description.html">Подробнее</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="column">
+                <div  class="columnDiv" >
+                    <h2 class="columnTitle">Виды васильков</h2>
+                    <img class="columnImg" src="https://avatars.mds.yandex.net/get-pdb/770122/877c5956-3c3f-407e-a470-845f7704979d/s1200">
+                    <div class="columnText">
+                        <div>
+                            <p>
+            Васильки – цветы, которые имеют более 500 разновидностей. 
+            Каждый из них отличается уникальной формой листьев, цветом, 
+            высотой стебля и корневой системой. Самыми распространенными
+            видами являются:
+                            </p>
+                            <p>
+                                Синий, или волошка, – травянистое растение, живущее 
+   			    1-2 года. Высота стебля – 80 см. Цветки собраны в 
+   			    одиночные корзиночки, которые начинают раскрываться в
+   			    начале июля. Лепестки могут быть голубого или синего 
+   			    оттенков
+   			                </p>
+   			                <p>
+   			        Белый – имеет махровые белые цветки, достигает 25
+   			    см в высоту. Считается редким видом, поэтому находится
+   			    под защитой
+   			                </p>
+                        </div>
+                    </div>
+                    <div class="columnLink">
+                        <a href="../articles/ru_speciesPlants.html">Подробнее</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="column">
+                <div  class="columnDiv" >
+                    <h2 class="columnTitle">Выращивание и уход</h2>
+                    <img class="columnImg" src="http://obzorka.net/pic/5655d60bac59d5655d60bac5d4_720.jpg">
+                    <div class="columnText">
+                        <div>
+                            <p>
+            Весна является самой благоприятной порой для посадки васильков. 
+            Почва должна прогреться. Это происходит с конца апреля. Почва
+            для василька подойдет любая, даже если в ней содержится известь.
+            Для этого ее нужно взрыхлить и рассаживать цветки на расстоянии 
+            не меньше 50 см друг от друга. Это даст возможность кусту полноценно
+            развиться. Грунт после засыпания лунки нужно слегка притоптать. 
+            Такой прием сможет легко ликвидировать образовавшиеся полости,
+            а растение благодаря этому быстрее укоренится. Васильки любят 
+            солнце, поэтому если высадить их в тень, они будут плохо
+            развиваться и цвести
+                            </p> 
+                        </div>
+                    </div>
+                    <div class="columnLink">
+                        <a href="../articles/ru_growingCornflowers.html">Подробнее</a>
+                    </div>
+                </div>
+            </div>
+            
+            
+            <div class="column">
+                <div  class="columnDiv" >
+                    <h2 class="columnTitle">Польза васильков</h2>
+                    <img class="columnImg" src="http://www.stihi.ru/pics/2016/08/03/2291.jpg">
+                    <div class="columnText">
+                        <div>
+                            <p>
+            В народной медицине очень ценными считаются цветы василька.
+            Применение их возможно в таких отраслях, как гинекология, 
+            практическая медицина и косметология. Их свойства уникальны.
+            Они способны комплексно воздействовать на весь организм. 
+            Цветы васильки и ромашки похожи своим противовоспалительным 
+            и противомикробным действием. Кроме того, они обладают 
+            мочегонным, потогонным, укрепляющим и легким желчегонным
+            эффектом. Настои и отвары из василька активно применяют
+            для похудения. Они способны вывести из организма лишнюю
+            жидкость и помогают сжигать лишний жир. В косметологии
+            василек считают волшебным средством, избавляющим от
+            многих проблем. Он способен снять отечность кожи вокруг 
+            глаз, избавить от угрей и прыщей, смягчить сухую кожу 
+            лица и шеи. Еще одна проблема, которую можно решить с 
+            помощью настоя васильков – выпадение волос. Через месяц 
+            результат поразит каждого. Но не следует забывать, что
+            использовать это растение следует только после разрешения 
+            врача
+                            </p> 
+                        </div>
+                    </div>
+                    <div class="columnLink">
+                        <a href="../articles/ru_benefitsCornflower.html">Подробнее</a>
+                    </div>
+                </div>
+            </div>
+            
+            </div>
+        </div>
+        </div>
+        
+        <!--открытие menuMob по клику, -->
+        <!--(!)выполняется после html, когда известны id -->
+		<script language= "JavaScript" src="../js/menuMob.js" type="text/javascript"></script>
+        
+        <!--загрузить стрелку наверх-->
+        <script language= "JavaScript" src="../js/arrowUp.js" type="text/javascript"></script>
+        
+        <!--загрузить подвал сайта-->
+        <script language= "JavaScript" src="../js/pageFooter.js" type="text/javascript"></script>
+        
+        </div>
+    </body>
+</html>

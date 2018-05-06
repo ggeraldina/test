@@ -11,7 +11,7 @@ if (document.title == "Cornflowers"){
 else{
 	document.write('<li>');
 }
-document.write('<a href="../index.html" id="titleLink" onclick="menuLink.onclick()">');
+document.write('<a href="../index.php" id="titleLink" onclick="menuLink.onclick()">');
 document.write('<img src = "../img/cornflowers_icon_light.png" alt = " kartinka :-)">');
 document.write('<div>Васильки.рф</div>');
 document.write('</a>');
@@ -24,7 +24,7 @@ if (document.title == "Cornflowers"){
 else{
 	document.write('<li>');
 }
-document.write('<a href="../index.html">');
+document.write('<a href="../index.php">');
 document.write('<div>Главная</div>');
 document.write('</a>');
 document.write('</li>');
@@ -36,7 +36,7 @@ if (document.title == "Photogallery"){
 else{
 	document.write('<li>');
 }
-document.write('<a href="../html/photogallery.html" >');
+document.write('<a href="../html/photogallery.php" >');
 document.write('<div>Фотогалерея</div>');
 document.write('</a>');
 document.write('</li>');
@@ -69,7 +69,7 @@ switch (document.title) {
 		document.write('<li>');
 }
 
-document.write('<a href="../html/articles.html">');
+document.write('<a href="../html/articles.php">');
 document.write('<div>Статьи</div>');
 document.write('</a>');
 // Подменю
@@ -81,7 +81,7 @@ if (document.title == "(RU) Cornflowers"){
 else{
 	document.write('<li>');
 }
-document.write('<a href="../articles/ru_cornflowers.html">');
+document.write('<a href="../articles/ru_cornflowers.php">');
 document.write('<div>Василёк синий</div>');
 document.write('</a>');
 document.write('</li>');
@@ -92,7 +92,7 @@ document.write('</li>');
 // else{
 // 	document.write('<li>');
 // }
-// document.write('<a href="../articles/en_centaurea_cyanus.html">');
+// document.write('<a href="../articles/en_centaurea_cyanus.php">');
 // document.write('<div>(EN) Cornflower</div>');
 // document.write('</a>');
 // document.write('</li>');
@@ -103,7 +103,7 @@ if (document.title == "(RU) Description"){
 else{
 	document.write('<li>');
 }
-document.write('<a href="../articles/ru_description.html">');
+document.write('<a href="../articles/ru_description.php">');
 document.write('<div>Описание растения</div>');
 document.write('</a>');
 document.write('</li>');
@@ -115,7 +115,7 @@ if (document.title == "(RU) Species of plants"){
 else{
 	document.write('<li>');
 }
-document.write('<a href="../articles/ru_speciesPlants.html">');
+document.write('<a href="../articles/ru_speciesPlants.php">');
 document.write('<div>Виды васильков</div>');
 document.write('</a>');
 document.write('</li>');
@@ -127,7 +127,7 @@ if (document.title == "(RU) Growing"){
 else{
 	document.write('<li>');
 }
-document.write('<a href="../articles/ru_growingCornflowers.html">');
+document.write('<a href="../articles/ru_growingCornflowers.php">');
 document.write('<div>Выращивание и уход</div>');
 document.write('</a>');
 document.write('</li>');
@@ -139,7 +139,7 @@ if (document.title == "(RU) Benefit"){
 else{
 	document.write('<li>');
 }
-document.write('<a href="../articles/ru_benefitsCornflower.html">');
+document.write('<a href="../articles/ru_benefitsCornflower.php">');
 document.write('<div>Польза васильков</div>');
 document.write('</a>');
 document.write('</li>');
@@ -154,7 +154,7 @@ if (document.title == "Feedback"){
 else{
 	document.write('<li>');
 }
-document.write('<a href="../html/feedback.html">');
+document.write('<a href="../html/feedback.php">');
 document.write('<div>Обратная связь</div>');
 document.write('</a>');
 document.write('</li>');

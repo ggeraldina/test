@@ -1,0 +1,477 @@
+/*общие настройки*/
+	body{
+		padding: 0;
+		margin: 0;
+		background: #F0F3F3;
+	}
+	.basic {
+		padding: 0;
+		margin: 0;	
+		color: #1B3E91;
+		text-align: left;
+		text-shadow: 0px 0px 2px #FFFFFF;
+		text-indent: 20px; 
+		font-family: Calibri;
+		font-size: 14pt;
+		font-weight: bold;
+	}
+	/*списки*/
+	ul{
+		margin: 0;
+	}
+	ul li{
+		list-style: square url(../img/cornflowers_marker.png);
+		text-align: left;
+	}
+	/*текст*/
+	.text h1,
+	.text h2{
+		padding: 0;
+		padding-top: 20px;
+		margin: 0;
+		color: #245850;
+		text-shadow: 0px 0px 3px #FFFFFF, 1px 1px 6px #8DB4D8;
+		text-align: center;
+		font-size: 28pt;
+		text-indent: 0;
+	}
+	.text h2 {
+		font-size: 20pt;
+	}
+	.text p{
+		padding: 0;
+		margin: 0;
+	}
+	.srcLink > a{
+		word-wrap: break-word;
+		overflow-wrap: break-word;
+	}
+	/*изображения*/
+	.text img{
+		max-width: 60%;
+		border: #245850 10px solid;
+		display: block;
+		padding: 5px;
+	}
+	.imgRight > img{
+		margin: 30px;
+		float: right;
+	}
+	.imgLeft > img{
+		margin: 30px;
+		float: left;
+	}
+	div.imgCenter{
+		margin: 30px;
+		text-align: center;
+	}
+	.imgCenter > img{
+		margin: auto;
+	}
+	/*стрелка наверх*/
+	.arrowUp{
+		position: fixed;
+		bottom: 0;
+		right: 0;
+		z-index: 5;
+		opacity: 0.5; /* степень прозрачности элемента */
+		-webkit-transition: all 0.5s ease-out 0.1s;
+	     -moz-transition: all 0.5s ease-out 0.1s;
+	       -o-transition: all 0.5s ease-out 0.1s;
+	          transition: all 0.5s ease-out 0.1s;
+	}
+	.arrowUp:hover {
+	    opacity: 1; /* степень прозрачности элемента */
+	}
+	/*ссылки*/
+	a{
+		color: #245850;
+		text-decoration: none;
+		font-style: italic;
+	}
+	a:hover{
+		text-decoration: underline;
+	}
+	a:active{
+		text-shadow: 0px 0px 3px #FFFFFF, 1px 1px 6px #8DB4D8;
+	}
+	/*меню*/
+	.menu img{
+		-object-fit: contain;
+		height: 30px;
+		float: left;
+	}
+	@font-face {
+	    font-family: ImpactWeb; 
+	    src: url(../fonts/ImpactWeb.ttf);
+   	}
+	.menu{
+		width: 100%;
+		position: fixed;
+		top: 0px;
+		z-index: 2;
+		height: 60px;
+		background: #1B3E91;
+		font-size: 16pt;
+		font-family: Impact, ImpactWeb, fantasy;
+		font-weight: normal;
+		text-shadow: none;
+		text-indent: 0; 
+	}
+	.menu > ul{
+		padding: 0;
+		margin: 0;
+		display: block;	
+	}
+	.menu > ul > li{
+		float: left;
+		position: relative;
+		list-style:none;/*маркера нет*/
+		text-align: center;
+	}
+	.menu > ul > li > a{
+		display: block;
+		padding: 5px;
+		margin: 10px;
+		height: 30px;
+		color: #8DB4D8;
+		border: 1px solid #8DB4D8;
+		border-radius: 20px; 
+		text-decoration: none;
+		font-style: normal;
+	}
+	/*раздел меню в моб. версии*/
+	#titleLink{
+		display: none;
+	}
+	/*подменю*/
+	.submenu {
+		z-index: 3;
+		padding:0 0 20px 0;
+	    background-color: #1B3E91;
+	    font-size: 12pt;
+	}
+	.submenu > li{
+		list-style: none;/*маркера нет*/
+	    text-align: left;
+	}
+	.submenu > li > a {
+	    display: block;
+	    color: white;
+	    padding: 10px;
+	    text-decoration: none;
+		font-style: normal;
+		letter-spacing: 1px;
+		word-spacing: 3px;
+	}
+	.submenu > li > a > div {
+		padding: 0px;
+		margin: 0px;
+	}
+	/*при наведении мыши*/
+	.menu > ul> li:hover > a{
+		border-color: white;
+	}
+	/*активный раздел меню*/
+	.activeLink > a > div{
+		color: white;
+	}
+	.activeSubLink > a > div{
+		text-decoration: underline;
+	}
+	/*васильки под меню*/
+	.menuBottom{
+		width: 100%;
+		position: fixed;
+		top: 60px;
+		z-index: 1;
+		height: 70px;
+		background-image: url(../img/cornflowers_top.png);
+		background-repeat: repeat;
+		background-size: contain;
+	}
+	/*подвал сайта*/
+	html,
+	body {
+	  height: 100%;
+	}
+	.basic {
+	  position: relative;
+	  min-height: 100%;
+	}
+	.text {
+	  padding-bottom: 190px;
+	}
+	.pageFooter {
+	    position: absolute;
+	    z-index: 4;
+	    left: 0;
+	    bottom: 0;
+	    width: 100%;
+		padding: 0px;
+		margin-top: 30px;
+	}
+	.pageFooter > div{
+		background-color: #497ABD;
+		border-top: 1px solid #497ABD;
+		margin-top: 20px;
+		height: 110px;
+	}
+	.pageFooter > div > div{
+		background-color: #497ABD;
+		padding: 10px 30px 30px 30px;
+		margin-top: 10px;
+		text-shadow: none;
+		text-align: left;
+		text-indent: 0;
+		font-size: 11pt;
+		font-weight: normal;
+		color: white;
+		border-top: 5px solid #1B3E91;
+	}
+	/*колонки*/
+	div.text_column{
+		padding: 0;
+		margin: 0 -20px;
+		display: inline-block;
+		width: 100%;
+	}
+	div.column{
+		width: 33%;
+		float: left;
+	}
+	.columnDiv{
+		padding: 20px;
+		margin: 10px;
+		background: #245850;
+	}
+	h2.columnTitle{
+		color: white;
+		padding: 0;
+		margin: 0;
+		text-indent: 0px;
+		text-shadow: none;
+		height: 65px;
+	}
+	img.columnImg{
+		min-width: 100%;
+		padding: 0;
+		margin: 0;
+		border: none;
+		height: 200px;
+		display: block;
+		object-fit: cover;
+		object-position: 50% 50%;
+	}
+	img.columnImgPhoto{
+		min-width: 100%;
+		padding: 0px;
+		margin: 0px;
+		border: none;
+		height: 300px;
+		display: block;
+		object-fit: cover;
+		object-position: 50% 50%;
+	}
+	.columnDivPG{
+		padding: 5px;
+		margin: 10px;
+		border: 10px solid #245850;
+	}
+	.columnText{
+		text-align: justify;
+		border: solid 1px #8DB4D8;
+		border-top: none;
+	}
+	.columnText > div{
+		padding: 0 10px 10px 10px;
+		overflow: hidden;
+		color: #F0F3F3;
+		height: 130px;
+		text-shadow: none;
+		font-size: 14px;
+	}
+	.columnLink{
+		text-indent: 0;
+		text-align: right;
+	}
+	.columnLink > a{
+		color: white;
+		font-style: normal;
+		text-shadow: none;
+	}
+	/*форма обратной связи*/
+	.form{
+		text-align: left;
+		display: inline;
+	}
+	#form{
+		margin-top: 30px;
+		text-align: center;
+		text-indent: 0;
+		
+	}
+	#feedbackButton{
+		color: white;
+		background-color: #1B3E91;
+		cursor: pointer;
+		border-width: 2px;
+	    border-color: #497ABD;
+	    margin-top: 20px;
+	    padding: 5px 30px;
+	}
+	input[type="text"]{
+		width: 50%;
+		min-width: 200px;
+	}
+	input[type="email"]{
+		width: 50%;
+		min-width: 200px;
+	}
+	textarea{
+		width: 50%;
+		min-width: 200px;
+	}
+@media (min-width: 550px){
+	/*меню*/
+	.menu > ul > li{
+		width: 25%;
+	}
+	/*подменю*/
+	.submenu {
+		position: absolute;
+		display: none;
+		width: 80%;
+	    top: 50px;
+	    left: 10%;
+	    margin: 0px;
+	    border: 1px solid white;
+	    border-radius:  20px 0;
+	}
+	/*при наведении мыши*/
+	.menu > ul> li:hover > ul.submenu {
+    	display: block;
+	}
+	.submenu > li:hover > a{
+		color: #8DB4D8;
+	}
+}
+@media (min-width: 770px){
+	/*текст, контент*/
+	.text > div{
+		padding: 130px 30px 0 30px;
+	}
+	/*изображения en_centaurea_cyanus*/
+	#img_ecc_2{
+		width: 35%;
+	}
+}
+@media (max-width: 770px) and (min-width: 550px){
+	/*меню*/
+	.menu{
+		height: 120px;
+	}
+	.menu > ul > li{
+		width: 50%;
+	}
+	.menuBottom{
+		top: 120px;
+	}
+	.text > div{
+		padding: 190px 30px 0 30px;
+	}
+	/*изображения en_centaurea_cyanus*/
+	#img_ecc_2{
+		width: 40%;
+	}
+	/*колонки*/
+	div.column{
+		width: 50%;
+	}
+}
+@media (max-width:770px){
+	.text img{
+		max-width: 90%;
+	}
+	/*изображения*/
+	div.imgRight{
+		margin: 30px 0;
+		text-align: center;
+	}
+	.imgRight > img{
+		margin: auto;
+		float: none;
+	}
+	div.imgLeft{
+		margin: 30px 0;
+		text-align: center;
+	}
+	.imgLeft > img{
+		margin: auto;
+		float: none;
+	}
+	div.imgCenter{
+		margin: 30px 0;
+		text-align: center;
+	}
+	.imgCenter{
+		margin: auto;
+		float: none;
+	}
+}
+@media (max-width:550px){
+	/*всегда видимый раздел меню*/
+	#titleLink{
+		display:  block;
+		color: white;
+	}
+	/*меню*/
+	.menu > ul > li{
+		width: 100%;
+	}
+	/*подменю*/
+	.submenu {
+		padding: 0;
+	}
+	.submenu > li > a{
+		display: none;
+		color: #8DB4D8;
+		margin-left: 20%;
+	}
+	/*при наведении мыши*/
+	.submenu > li:hover > a{
+		text-decoration: underline;
+	}
+	/*меню свернуто js*/
+	.closeMenu > ul > li > a{
+		display: none;
+	}
+	/*меню развернуто js*/
+	.openMenu {
+		height: 320px;
+	}
+	.openMenu  > ul > li > a{ 
+		display: block;
+	}
+	.openMenu #mainLink{
+		display:  block;
+	}
+	
+	.closeMenuBottom{
+		top: 60px;
+	}
+	.openMenuBottom{
+		top: 320px;
+	}
+	
+	.closeMenu_text{
+		padding: 130px 30px 0 30px;
+	}
+	.openMenu_text{
+		padding: 390px 30px 0 30px;
+	}
+	/*колонки*/
+	div.column{
+		width: 100%;
+	}
+}
