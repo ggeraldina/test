@@ -36,7 +36,7 @@
 				elseif(empty($email)){
 					echo "Предупреждение: Не введен email. Мы не сможем ответить на Ваше сообщение.";
 					echo "</br>";echo "</br>";
-					$sql = "INSERT INTO feedback (name, theme, email, message) VALUES ('".$name."', '".$theme."', '".$email."', '".$message."')";
+					$sql = "INSERT INTO feedback (name, email, theme, message) VALUES ('".$name."', '".$email."','".$theme."','".$message."')";
 				// 	echo "name=".$name;echo "</br>";
 				// 	echo "theme=".$theme;echo "</br>";
 				// 	echo "message=".$message;echo "</br>";
