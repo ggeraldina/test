@@ -311,6 +311,12 @@
 		text-indent: 0;
 		
 	}
+	#formAnswer{
+		margin-top: 30px;
+		text-align: center;
+		text-indent: 0;
+		
+	}
 	#feedbackButton{
 		color: white;
 		background-color: #1B3E91;

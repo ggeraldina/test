@@ -14,31 +14,31 @@
         <!-- загрузить меню -->
 		<script language= "JavaScript" src="../js/menu.js" type="text/javascript"></script>
         
-        
         <!--content-->
         <div class="text" >
         <div id="text" class="closeMenu_text">
             
             <h1>Обратная связь</h1>
+            
             <div id="form">
-            <form class="form" action="mailto:grushevskaya.d.v@yandex.ru" method="post" enctype="text/plain">
+            <form class="form" action="feedbackAnswer.php" method="post">
                <label>Ваше имя:</label>
                <br>
-               <input type="text" name="name"/>
+               <input type="text" name="name" maxlength="100"/>
                <br>
                <label>Ваш E-mail адрес:</label>
                <br>
-               <input type="email" name="address"/>
+               <input type="email" name="email" maxlength="100"/>
                <br>
                <label>Тема сообщения:</label>
                <br>
-               <input type="text" name="theme"/>
+               <input type="text" name="theme" maxlength="100"/>
                <br>
                <label>Сообщение:</label>
                <br>
-               <textarea name="message" rows="5"></textarea>
+               <textarea name="message" rows="5" maxlength="1000"></textarea>
                <br>
-               <input id="feedbackButton" type="submit" value="Отправить"/>
+               <input id="feedbackButton" type="submit" name="ok" value="Отправить"/>
             </form>
             </div>
             
