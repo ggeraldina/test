@@ -20,7 +20,7 @@
 		margin: 0;
 	}
 	ul li{
-		list-style: square url(../img/cornflowers_marker.png);
+		list-style: square url(./img/cornflowers_marker.png);
 		text-align: left;
 	}
 	/*текст*/
@@ -41,6 +41,7 @@
 	.text p{
 		padding: 0;
 		margin: 0;
+		text-align: justify;
 	}
 	.srcLink > a{
 		word-wrap: break-word;
@@ -80,6 +81,9 @@
 	       -o-transition: all 0.5s ease-out 0.1s;
 	          transition: all 0.5s ease-out 0.1s;
 	}
+	.arrowUp img{
+		border: 0;
+	}
 	.arrowUp:hover {
 	    opacity: 1; /* степень прозрачности элемента */
 	}
@@ -103,7 +107,7 @@
 	}
 	@font-face {
 	    font-family: ImpactWeb; 
-	    src: url(../fonts/ImpactWeb.ttf);
+	    src: url(./fonts/ImpactWeb.ttf);
    	}
 	.menu{
 		width: 100%;
@@ -186,7 +190,7 @@
 		top: 60px;
 		z-index: 1;
 		height: 70px;
-		background-image: url(../img/cornflowers_top.png);
+		background-image: url(./img/cornflowers_top.png);
 		background-repeat: repeat;
 		background-size: contain;
 	}
@@ -241,7 +245,7 @@
 		float: left;
 	}
 	.columnDiv{
-		padding: 20px;
+		padding:  20px 20px 10px 20px;
 		margin: 10px;
 		background: #245850;
 	}
@@ -293,7 +297,7 @@
 	}
 	.columnLink{
 		text-indent: 0;
-		text-align: right;
+		text-align: center;
 	}
 	.columnLink > a{
 		color: white;
@@ -337,6 +341,20 @@
 	textarea{
 		width: 50%;
 		min-width: 200px;
+	}
+	/*ссылка подробнее*/
+	.moreDetailed{
+		text-decoration: none;
+		font-style: normal;
+		font-family: Calibri;
+    	font-size: 14pt;
+		color: white;
+		background-color: #1B3E91;
+		cursor: pointer;
+		border-width: 1px;
+	    border-color: #497ABD;
+	    margin-top: 10px;
+	    padding: 2px 5px;
 	}
 @media (min-width: 550px){
 	/*меню*/

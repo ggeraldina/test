@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel = "stylesheet" type = "text/css" href = "./html/style.css">
+        <link rel = "stylesheet" type = "text/css" href = "./style.css">
     	<meta name="viewport" content="width=device-width">
     	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     	<meta http-equiv="Content-Language" Content="ru">    	
@@ -29,48 +29,19 @@
         </li>
         <!--Фотогалерея-->
         <li>
-            <a href="./html/photogallery.php" >
+            <a href="./photogallery.php" >
             <div>Фотогалерея</div>
             </a>
         </li>
         <!--Статьи-->
         <li>
-            <a href="./html/articles.php">
+            <a href="./articles.php">
             <div>Статьи</div>
             </a>
-            <!--Подменю-->
-            <ul  class="submenu" >
-            <li class = "activeSubLink">
-            <li>
-                <a href="./articles/ru_cornflowers.php">
-                <div>Василёк синий</div>
-                </a>
-            </li>
-            <li>
-                <a href="./articles/ru_description.php">
-                <div>Описание растения</div>
-                </a>
-            </li>
-            <li>
-                <a href="./articles/ru_speciesPlants.php">
-                <div>Виды васильков</div>
-                </a>
-            </li>
-            <li>
-                <a href="./articles/ru_growingCornflowers.php">
-                <div>Выращивание и уход</div>
-                </a>
-            </li>
-            <li>
-                <a href="./articles/ru_benefitsCornflower.php">
-                <div>Польза васильков</div>
-                </a>
-            </li>
-            </ul>
         </li>
         <!--Обратная связь-->
         <li>
-            <a href="./html/feedback.php">
+            <a href="./feedback.php">
             <div>Обратная связь</div>
             </a>
         </li>
